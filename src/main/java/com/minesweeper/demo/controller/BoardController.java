@@ -140,7 +140,7 @@ public class BoardController {
         this.realBoard.getRecursionEmptyCellsCollection().clear();
     }
 
-    private void printCurrentClientBoardAndMsgs() {
+    public void printCurrentClientBoardAndMsgs() {
         this.activeMsg.getMsgStatus();
         printBoard(this.getMaskedBoard());
         this.activeMsg.getMsgLost();
